@@ -1,4 +1,4 @@
-# Repositório do Bootcamp da TakeBlip Web Developer
+# Repositório do Bootcamp TakeBlip Web Developer
  Repositório criado para os Desafios de Projeto.
 
 ## Links Úteis
