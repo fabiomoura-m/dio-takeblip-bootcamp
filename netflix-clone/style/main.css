@@ -9,9 +9,11 @@
   box-sizing: border-box;
 }
 
+/* elementos base */
 body {
   background-color: var(--preta);
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 
 header .container {
@@ -32,4 +34,27 @@ header nav a {
 }
 header nav a:hover {
   color: #fff;
+}
+
+/* filme principal */
+
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(../img/capa-vikings.jpg);
+
+  height: 400px;
+  background-size: cover;
+  background-size: 100% 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.filme-principal .titulo {
+  font-size: 40px;
+}
+.filme-principal .descricao {
+  margin-bottom: 40px;
 }
