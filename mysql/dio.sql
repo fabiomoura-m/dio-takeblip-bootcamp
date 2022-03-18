@@ -19,8 +19,10 @@ ORDER BY nome DESC
 
 
 ALTER TABLE pessoas ADD genero VARCHAR(1) NOT NULL AFTER nascimento
-INSERT INTO pessoas (genero) VALUE ("F") WHERE id =3
-INSERT INTO pessoas (genero) VALUE ("M") WHERE id =1
-INSERT INTO pessoas (genero) VALUE ("M") WHERE id =2
+INSERT INTO pessoas (genero) VALUES ("F") WHERE id =3
+INSERT INTO pessoas (genero) VALUES ("M") WHERE id =1
+INSERT INTO pessoas (genero) VALUES ("M") WHERE id =2
 
 SELECT COUNT(qtd), genero FROM pessoas GROUP BY genero
+
+DROP TABLE pessoas
